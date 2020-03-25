@@ -190,9 +190,9 @@ h2
     }
 }
 
-.menus-top-1, .menus-top-2, .menus-bot-1, .menus-bot-2, .btn h2
+.menus-top-1, .menus-top-2, .menus-bot-1, .menus-bot-2
 {
-    &:hover
+    &:hover, &:hover h2
     {
         animation: zoom 30s ease-in-out;
     }
@@ -290,14 +290,14 @@ footer
 {
     from 
     { 
-        width: 5px;
-        height: 5px;
+        width: 3px;
+        height: 3px;
     }
 
     40%
     {
-        width: 5px;
-        height: 5px;   
+        width: 3px;
+        height: 3px;   
     }
 
     to 
@@ -416,8 +416,8 @@ footer
 
         .point
         {
-            height: 2px;
-            width: 2px;
+            height: 3px;
+            width: 3px;
             background-color: #FDCB46;
             margin: 20px 3px 5px 3px;
             border-radius: 50%;

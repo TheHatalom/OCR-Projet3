@@ -82,7 +82,6 @@ i
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 35px;
 }
 
 .mn-choice-text
@@ -314,11 +313,10 @@ i
         }
     }
 
-    .line
+    img
     {
-        height: 30px;
         width: 30%;
-        border-bottom: 3px solid black;
+        margin: auto 0;
     }
 
     .mn-starter
@@ -410,6 +408,8 @@ i
 
     .mn-2
     {
+        height: 800px;
+
         .mn-title
         {
             h3
@@ -459,8 +459,6 @@ i
     .mn-choice-text, .mn-choice-price
     {  
         font-size: x-small;
-        display: flex;
-        justify-content: inherit;
     }
 
     .mn-foot
