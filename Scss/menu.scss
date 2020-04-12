@@ -28,7 +28,7 @@ h2
 {
     text-align: center;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 2.5rem;
     margin: 30px;
 }
 
@@ -41,6 +41,7 @@ i
 {
     background-image: linear-gradient(to right,#F05060, #F6916A);  
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
 }
 
@@ -85,7 +86,12 @@ i
 
 .mn-choice-text
 {
-    margin: 5px;
+    margin: 10px;
+}
+
+.mn-choice-price
+{
+    margin: 10px;
 }
 
 .mn-main
@@ -134,23 +140,28 @@ i
     background-color: #FCDFDB;
     color: #3D1319;
 
+    p
+    {
+        font-size: 1.3rem;
+    }
+
     h3
     {
         color: #3D1319;
-        font-size: xx-large;
+        font-size: 2.5rem;
         margin: 10px;
     }
 
     .line
     {
-        height: 50px;
+        height: 60px;
         width: 30%;
         border-bottom: 3px solid black;
     }
 
     h4
     {
-        font-size: x-large;
+        font-size: 2rem;
     }
 
     .mn-starter
@@ -185,21 +196,32 @@ i
     font-family: 'brig-maven';
     background-color: #FFF5FE;
 
+    h4
+    {
+        font-size: 1.4rem;
+    }
+
+    p
+    {
+        font-size: 1.2rem;
+    }
+
     .mn-title
     {
         h3
         {
-            font-size: xx-large;
+            font-size: 2.3rem;
             background-image: linear-gradient(to right,#E38A12, #8F5AFF);  
             -webkit-background-clip: text;
+            background-clip: text;
             color: transparent;
         }
     }
 
     .line
     {
-        height: 30px;
-        width: 30%;
+        height: 43px;
+        width: 22%;
         border-bottom: 3px solid black;
     }
 
@@ -232,21 +254,29 @@ i
             border-bottom: 3px solid #6E4CCC;
         }
     }
-}
 
-.mn-2 
-{
     .mn-choice-price
     {
         font-family: sans-serif;
     }
 }
+
 /******************** MENU 3 ********************/
 
 .mn-3
 {
     font-family: 'handsofmumu';
     background-color: #F9F9F9;
+
+    p
+    {
+        font-size: 1.3rem;
+    }
+
+    h4
+    {
+        font-size: 1.6rem;
+    }
 
     .mn-title
     {
@@ -255,14 +285,15 @@ i
             font-size: 3rem;
             background-image: linear-gradient(to right,#001ED9, #0889FB);  
             -webkit-background-clip: text;
+            background-clip: text;
             color: transparent;
         }
     }
 
     .line
     {
-        height: 30px;
-        width: 30%;
+        height: 43px;
+        width: 25%;
         border-bottom: 3px solid black;
     }
 
@@ -298,6 +329,16 @@ i
     font-family: 'sketcha';
     background-color: #FDFFFD;
 
+    p
+    {
+        font-size: 1.5rem;
+    }
+
+    h4
+    {
+        font-size: 1.8rem;
+    }
+
     .mn-title
     {
         h3
@@ -305,6 +346,7 @@ i
             font-size: 4rem;
             background-image: linear-gradient(to right,#3E923A, #BEFF7F);  
             -webkit-background-clip: text;
+            background-clip: text;
             color: transparent;
         }
     }
@@ -341,20 +383,6 @@ i
 }
 
 
-
-@keyframes underline
-{
-    from 
-    { 
-        opacity: 1;
-    }
-
-    to 
-    { 
-        opacity: 0.3;
-    }
-}
-
 /********************************************************************************************************************/
 
 @media screen and (max-width: 750px)
@@ -368,7 +396,7 @@ i
 
     main
     {
-        padding: 10px;
+        padding: 0;
     }
 }
 
@@ -377,91 +405,106 @@ i
 {
     h2
     {
-        font-size: large;
+        font-size: 1.4rem;
     }
 
     .mn-1
     {
-        .mn-title
+        p
         {
-            h3
-            {
-                font-size: medium;
-            }
+            font-size: 1rem;
+        }
+
+        h3
+        {
+            font-size: 2rem;
         }
 
         h4
         {
-            font-size: small;
+            font-size: 1.6rem;
         }
 
         .line
         {
-            height: 25px;
+            height: 50px;
         }
 
+        .mn-foot
+        {
+            i, h3
+            {
+                font-size: 2rem;
+            }
+        }
     }
 
     .mn-2
     {
-        height: 800px;
+        p
+        {
+            font-size: 1rem;
+        }
 
         .mn-title
         {
             h3
             {
-                font-size: medium;
+                font-size: 1.5rem;
             }
         }
 
         h4
         {
-            font-size: small;
+            font-size: 1rem;
         }
     }
 
     .mn-3
     {
+        p
+        {
+            font-size: 1.2rem;
+        }
+
         .mn-title
         {
             h3
             {
-                font-size: medium;
+                font-size: 2rem;
             }
         }
 
         h4
         {
-            font-size: small;
+            font-size: 1.5rem;
         }
     }
 
     .mn-4
     {
+        p
+        {
+            font-size: 1.3rem;
+        }
+
         .mn-title
         {
             h3
             {
-                font-size: medium;
+                font-size: 2.5rem;
             }
         }
 
         h4
         {
-            font-size: small;
+            font-size: 1.5rem;
         }
     }
 
     .mn-choice-text, .mn-choice-price
     {  
         font-size: x-small;
-    }
-
-    .mn-foot
-    {
-        i, h3
-        {
-            font-size: medium;
-        }
+        margin: 10px 7px 10px 0px;
     }
 }
